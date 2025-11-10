@@ -1,5 +1,5 @@
-import React, { useCallback, useMemo, useRef, useState } from "react";
-import { Chess, Square, Move } from "chess.js";
+import { useCallback, useMemo, useRef, useState } from "react";
+import { Chess, type Square, Move } from "chess.js";
 
 const files = ["a","b","c","d","e","f","g","h"] as const;
 const ranks = ["8","7","6","5","4","3","2","1"] as const;
